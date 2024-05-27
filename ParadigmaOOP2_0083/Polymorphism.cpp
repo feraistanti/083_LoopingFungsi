@@ -15,3 +15,24 @@ public:
         cout << "pesan dari joko" << endl;
     }
 };
+
+lass Lia :public seseorang {
+public:
+    void pesan() {
+        cout << "pesan dari Lia" << endl;
+    }
+};
+
+int main() {
+    seseorang* obyek;
+    joko a;
+    Lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+    //a.seseorang::pesan();
+
+    return 0;
+}
