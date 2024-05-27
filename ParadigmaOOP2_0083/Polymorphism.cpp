@@ -16,7 +16,7 @@ public:
     }
 };
 
-lass Lia :public seseorang {
+class Lia :public seseorang {
 public:
     void pesan() {
         cout << "pesan dari Lia" << endl;
